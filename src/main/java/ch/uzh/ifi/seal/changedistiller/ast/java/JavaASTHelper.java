@@ -79,6 +79,7 @@ public class JavaASTHelper implements ASTHelper<JavaStructureNode> {
     	case "1.5": versionNumber = ClassFileConstants.JDK1_5;break;
     	case "1.6": versionNumber = ClassFileConstants.JDK1_6;break;
     	case "1.7": versionNumber = ClassFileConstants.JDK1_7;break;
+        case "1.8": versionNumber = ClassFileConstants.JDK1_8;break;
     	default: versionNumber = ClassFileConstants.JDK1_6;
     	}
         fCompilation = JavaCompilationUtils.compile(file, versionNumber);

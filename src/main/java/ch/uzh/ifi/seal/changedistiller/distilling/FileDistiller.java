@@ -73,7 +73,7 @@ public class FileDistiller {
      *            file to extract changes
      */
     public void extractClassifiedSourceCodeChanges(File left, File right) {
-    	extractClassifiedSourceCodeChanges(left, "default", right, "default");
+    	extractClassifiedSourceCodeChanges(left, "1.8", right, "1.8");
     }
 
     /**
